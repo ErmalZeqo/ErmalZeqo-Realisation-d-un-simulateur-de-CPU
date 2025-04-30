@@ -1,0 +1,54 @@
+Bonjour !
+D'apres makefile nous nous permettons de vous dire les commeandes que vous pouvez outilise pour execute notre fichiers.
+
+Pour l'execution de exercices 1 
+make all
+./exo
+make clean
+
+Pour l'execution de exercices 2 
+make main2
+./exo
+make clean
+
+Pour l'execution de exercices 3 
+make main3
+./exo
+make clean
+
+Pour l'execution de exercices 4 
+make main4
+./exo
+make clean
+
+Pour l'execution de exercices 5 
+make main5
+./exo
+make clean
+
+Pour l'execution de exercices 6 
+make main6
+./exo
+make clean
+
+Pour l'execution de exercices 7 
+make main7
+./main7
+make clean
+
+Pour l'execution de exercices 8 
+make main8
+./main8
+make clean
+
+ATTENTION
+ 
+Étant donné que nous avons créé le main pour chacun des exercices indépendants, nous vous recommandons de toujours exécuter la commande « make clean » si vous souhaitez passer à l'exercice suivant.
+
+
+Truc utiliser dans les exos:
+
+-> strtok : C'est une fonction qui permet de découper une chaîne de caractères en sous-chaînes en fonction d'un délimiteur.
+Ici, nous utilisons l'espace comme délimiteur pour extraire les trois éléments.
+
+->strdup(line) : Cela crée une copie de la ligne d'entrée, car strtok modifie la chaîne d'entrée.
